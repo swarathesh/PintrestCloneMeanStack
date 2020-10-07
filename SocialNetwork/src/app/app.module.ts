@@ -18,6 +18,7 @@ import {HttpClientModule} from "@angular/common/http";
 import {MatListModule} from "@angular/material/list";
 import {MatExpansionModule} from "@angular/material/expansion";
 import {MatInputModule} from "@angular/material/input";
+import {MatPaginatorModule} from "@angular/material/paginator";
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import {MatInputModule} from "@angular/material/input";
         HttpClientModule,
         MatListModule,
         MatExpansionModule,
-        MatInputModule
+        MatInputModule,
+        MatPaginatorModule
     ],
   providers: [],
   bootstrap: [AppComponent]
